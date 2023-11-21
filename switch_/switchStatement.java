@@ -19,7 +19,7 @@ public class switchStatement {
     public String statementOfSwitch(String month){
 
         return switch (month){
-            case "january", "february", "march" -> {yield "1st";}
+            case "january", "february", "march" -> "1st";
             case "april", "may", "june" -> "2st";
             case "july", "august", "september" -> "3th";
             case "october", "november", "december" -> "4th";
