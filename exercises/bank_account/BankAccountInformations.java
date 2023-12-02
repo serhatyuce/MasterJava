@@ -12,9 +12,6 @@ public class BankAccountInformations {
         this.accountNumber = accountNumber;
     }
 
-    public void setAccountBalance(double accountBalance) {
-        this.accountBalance = accountBalance;
-    }
 
     public void setCustomerName(String customerName) {
         this.customerName = customerName;

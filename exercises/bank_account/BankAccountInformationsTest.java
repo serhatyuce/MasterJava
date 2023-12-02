@@ -19,5 +19,6 @@ public class BankAccountInformationsTest {
         serhatAccount.depositeFund(10000);
         serhatAccount.getAccountBalance();
         serhatAccount.withdrawingFund(120);
+        serhatAccount.getAccountBalance();
     }
 }
