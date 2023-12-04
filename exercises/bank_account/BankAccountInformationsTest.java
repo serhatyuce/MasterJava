@@ -15,10 +15,12 @@ public class BankAccountInformationsTest {
         System.out.println("PhoneNumber : " + serhatAccount.getPhoneNumber());
         System.out.println("AccountBalance : " + serhatAccount.getAccountBalance());
 
+
+
         serhatAccount.withdrawingFund(45);
         serhatAccount.depositeFund(10000);
-        serhatAccount.getAccountBalance();
+        System.out.println("AccountBalance : " + serhatAccount.getAccountBalance());
         serhatAccount.withdrawingFund(120);
-        serhatAccount.getAccountBalance();
+        System.out.println("AccountBalance : " + serhatAccount.getAccountBalance());
     }
 }

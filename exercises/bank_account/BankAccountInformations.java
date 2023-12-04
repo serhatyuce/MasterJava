@@ -12,7 +12,6 @@ public class BankAccountInformations {
         this.accountNumber = accountNumber;
     }
 
-
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
     }
@@ -59,8 +58,4 @@ public class BankAccountInformations {
             System.out.println("you withdraw " + amount + " your current balance is : " + accountBalance);
         }
     }
-
-
-
-
 }
